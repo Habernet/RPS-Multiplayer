@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rock Paper Scissors!</title>
+    // Bootstrap?
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.0.js"
+        integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+
+    <script src="https://www.gstatic.com/firebasejs/5.9.4/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyBjYuZBOCcIR6UUJavmOvMJSkA8IhT2IDE",
+            authDomain: "rps-multiplayer-71fa9.firebaseapp.com",
+            databaseURL: "https://rps-multiplayer-71fa9.firebaseio.com",
+            projectId: "rps-multiplayer-71fa9",
+            storageBucket: "rps-multiplayer-71fa9.appspot.com",
+            messagingSenderId: "804923586958"
+        };
+        firebase.initializeApp(config);
+    </script>
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
