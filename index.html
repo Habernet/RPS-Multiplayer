@@ -15,12 +15,34 @@
 </head>
 
 <body>
-    <p>After clicking, go to the firebase database to see the click counter go up.</p>
-    <p>
-        While clicking, put this html file to the left, and show the firebase database on the right to show how firebase
-        is real time!
-    </p>
-
+    <div class="wrapper">
+        <div class="row">
+            <div class="col banner">
+                <h1>Rock Paper Scissors Live Game!</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <h1>Player 1:</h1>
+                <p>Wins:<span id="player1-wins"></span></p> 
+                <p>Losses:<span id="player1-losses"></span></p>
+                <p>Ties:<span id="player1-ties"></span></p>
+            </div>
+            <div class="col-md-6">
+                <h1>Instructions:</h1>
+            </div>
+            <div class="col-md-3">
+                <h1>Player 2:</h1>
+                <p>Wins:<span id="player2-wins"></span></p> 
+                <p>Losses:<span id="player2-losses"></span></p>
+                <p>Ties:<span id="player2-ties"></span></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 rps-div"></div>
+            <div class="col-md-12 chat-div"></div>
+        </div>
+    </div>
     <!-- Button -->
     <button id="click-button">Click Me!!!!</button>
 
