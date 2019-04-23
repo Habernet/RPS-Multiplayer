@@ -4,3 +4,22 @@
 body{
     margin: 20px;
 }
+.chat-div{
+    border: 10px solid black;
+    height: 350px;
+    width: auto;
+}
+.rps-div{
+    border: 10px solid green;
+    height: 250px;
+    width: auto;
+}
+.chat-box{
+    height: 200px;
+    width: 90%;
+    border: 2px solid goldenrod;
+}
+#chat-room{
+    border-bottom: 3px solid gold;
+    text-align: center;
+}
